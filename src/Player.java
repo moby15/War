@@ -8,17 +8,19 @@ public class Player {
 
     private Stack<String> hand;
 
-    public Player(Stack <String> h){
-        hand=h;
+    public Player(Stack<String> h) {
+        hand = h;
     }
-    public Player(){
+
+    public Player() {
 
     }
 
-    public Stack<String> getHand(){
+    public Stack<String> getHand() {
         return hand;
     }
-    public void setHand(Stack<String> h){
+
+    public void setHand(Stack<String> h) {
         hand = h;
     }
 }
